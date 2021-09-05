@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
     sudo \
     wget \
     git \
+    tar \
+    tmate \
+    screenfetch \
     make \
     busybox \
     build-essential \
