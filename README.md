@@ -1,7 +1,7 @@
 # Terminal Shell
 
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MADEWGN/terminal.sh.git)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MR-3RL/terminal.sh.git)
 
 You can deploy without cloning this repo to test it out.
 
