@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
+    ffmpeg \
+    python \
  && mkdir -p /home/stuff
 
 # Set work dir:
