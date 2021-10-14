@@ -1,7 +1,7 @@
 # Terminal Shell
 
 
-[![ini om ian tinggal pencet bisa juga hehe](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/deastrac/XXXXXXXXX.git)
+[![ini om ian tinggal pencet bisa juga hehe](https://telegra.ph/file/ff6be8a564e2d68f0e96c.png)](https://heroku.com/deploy?template=https://github.com/deastrac/XXXXXXXXX.git)
 
 You can deploy without cloning this repo to test it out.
 
